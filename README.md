@@ -4,7 +4,7 @@ mazemazecolor
 #### Safari(iOS8~)のバウンススクロールを利用したコンテンツ ####
 
 下の図のバウンススクロールして空いた隙間の部分
-<img src="http://ikeryou.jp/works/mazemaze/sample.png" width="960" height="720">
+<img src="http://ikeryou.jp/works/mazemaze/sample.png">
 
 こちら通常であれば
 ```css

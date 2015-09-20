@@ -1,4 +1,4 @@
-mazemazecolor
+MazeMazeColor
 ========
 
 #### Safari(iOS8~)のバウンススクロールを利用したコンテンツ ####

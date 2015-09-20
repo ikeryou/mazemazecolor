@@ -1,4 +1,4 @@
-mazemazecolor
+<a href="http://ikeryou.jp/works/mazemaze">MazeMazeColor</a>
 ========
 
 #### Safari(iOS8~)のバウンススクロールを利用したコンテンツ ####

@@ -21,7 +21,9 @@ body {
 
 
 ※iPhone(iOS8~)<br>
-http://ikeryou.jp/works/mazemaze/
+http://ikeryou.jp/works/mazemaze/<br>
+・タップでランダムに色変更<br>
+・ディーププレスで彩度を変更
 
 
 ### 使い方 ###

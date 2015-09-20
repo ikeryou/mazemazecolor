@@ -72,14 +72,16 @@ class Contents
       # 下にスクロール限界突破
       # 下の色を引いていく
       rate = MY.u.map(s, 1, 0, -minDist, 0);
-      @_bgColor.addColors(topColor, btmColor);
+      @_bgColor.copy(topColor);
+      @_bgColor.multiply(btmColor);
       @_bgColor.lerp(topColor, rate);
     
     if s > 0
       # 上にスクロール限界突破
       # 上の色を引いていく
       rate = MY.u.map(s, 0, 1, 0, minDist);
-      @_bgColor.addColors(topColor, btmColor);
+      @_bgColor.copy(topColor);
+      @_bgColor.multiply(btmColor);
       @_bgColor.lerp(btmColor, rate);
       
     

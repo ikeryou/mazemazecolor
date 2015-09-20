@@ -198,12 +198,14 @@ Contents = (function() {
     minDist = MY.resize.sh() * 0.5;
     if (s < 0) {
       rate = MY.u.map(s, 1, 0, -minDist, 0);
-      this._bgColor.addColors(topColor, btmColor);
+      this._bgColor.copy(topColor);
+      this._bgColor.multiply(btmColor);
       this._bgColor.lerp(topColor, rate);
     }
     if (s > 0) {
       rate = MY.u.map(s, 0, 1, 0, minDist);
-      this._bgColor.addColors(topColor, btmColor);
+      this._bgColor.copy(topColor);
+      this._bgColor.multiply(btmColor);
       this._bgColor.lerp(btmColor, rate);
     }
     color = "rgb(" + ~~(this._bgColor.r * 255) + "," + ~~(this._bgColor.g * 255) + "," + ~~(this._bgColor.b * 255) + ")";

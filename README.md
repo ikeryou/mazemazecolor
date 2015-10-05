@@ -27,7 +27,7 @@ http://ikeryou.jp/works/mazemaze/<br>
 
 
 ### 使い方 ###
-<img src="http://ikeryou.jp/works/mazemaze/c.gif">
+<a href=""http://ikeryou.jp/works/mazemaze/" target="_blank"><img src="http://ikeryou.jp/works/mazemaze/c.gif"></a>
 
 
 画面上下の色の合計した色を、バウンススクロールで生じた隙間に反映させてます。
